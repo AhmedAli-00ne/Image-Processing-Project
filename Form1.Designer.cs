@@ -38,6 +38,8 @@
             this.HistoEqBut = new System.Windows.Forms.Button();
             this.InterpBut = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,6 +81,7 @@
             this.AdaptiveFBut.TabIndex = 4;
             this.AdaptiveFBut.Text = "Adaptive Filter";
             this.AdaptiveFBut.UseVisualStyleBackColor = true;
+            this.AdaptiveFBut.Click += new System.EventHandler(this.AdaptiveFBut_Click);
             // 
             // AvergFBut
             // 
@@ -88,6 +91,7 @@
             this.AvergFBut.TabIndex = 5;
             this.AvergFBut.Text = "Averaging Filter";
             this.AvergFBut.UseVisualStyleBackColor = true;
+            this.AvergFBut.Click += new System.EventHandler(this.AvergFBut_Click);
             // 
             // GaussFBut
             // 
@@ -135,11 +139,33 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(12, 380);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(91, 58);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(176, 379);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(101, 59);
+            this.button3.TabIndex = 12;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.InterpBut);
             this.Controls.Add(this.HistoEqBut);
@@ -168,6 +194,8 @@
         private System.Windows.Forms.Button HistoEqBut;
         private System.Windows.Forms.Button InterpBut;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
