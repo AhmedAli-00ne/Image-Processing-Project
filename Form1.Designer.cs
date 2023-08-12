@@ -101,6 +101,7 @@
             this.GaussFBut.TabIndex = 6;
             this.GaussFBut.Text = "Gaussian Filter";
             this.GaussFBut.UseVisualStyleBackColor = true;
+            this.GaussFBut.Click += new System.EventHandler(this.GaussFBut_Click);
             // 
             // InputMask
             // 

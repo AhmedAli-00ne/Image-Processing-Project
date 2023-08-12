@@ -224,6 +224,13 @@ namespace Image_Project
                 AdaptiveButtons = false;
             }
         }
+
+        private void GaussFBut_Click(object sender, EventArgs e)
+        {
+            if(ImageLoaded)
+            {
+            }
+        }
     }
 }
 
