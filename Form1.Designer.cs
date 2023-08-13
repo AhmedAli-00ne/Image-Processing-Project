@@ -111,6 +111,7 @@
             this.InputMask.TabIndex = 7;
             this.InputMask.Text = "Input Your Mask";
             this.InputMask.UseVisualStyleBackColor = true;
+            this.InputMask.Click += new System.EventHandler(this.InputMask_Click);
             // 
             // HistoEqBut
             // 
@@ -120,6 +121,7 @@
             this.HistoEqBut.TabIndex = 8;
             this.HistoEqBut.Text = "Histogram Equalization";
             this.HistoEqBut.UseVisualStyleBackColor = true;
+            this.HistoEqBut.Click += new System.EventHandler(this.HistoEqBut_Click);
             // 
             // InterpBut
             // 
@@ -129,6 +131,7 @@
             this.InterpBut.TabIndex = 9;
             this.InterpBut.Text = "Interpolation";
             this.InterpBut.UseVisualStyleBackColor = true;
+            this.InterpBut.Click += new System.EventHandler(this.InterpBut_Click);
             // 
             // pictureBox1
             // 
